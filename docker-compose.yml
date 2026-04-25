@@ -1,0 +1,70 @@
+services:
+  myapp:
+    build: .                  # <-- Вот главное изменение: собирать из Dockerfile здесь
+    image: myapp:v1           # <-- Собранному образу будет присвоен этот тег
+    container_name: myapp-compose
+    ports:
+      - "5000:5000"
+    restart: always
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
